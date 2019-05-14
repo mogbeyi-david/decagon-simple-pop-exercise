@@ -12,5 +12,5 @@ Admin.prototype.constructor = Admin;
 
 Admin.prototype.save = function () {
   // Push the new users object into the users array
-  this.users.push(this);
+  users.push(this);
 };
