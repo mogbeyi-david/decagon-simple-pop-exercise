@@ -18,7 +18,7 @@ function User(name, email, password) {
 
 
 User.prototype.save = function () {
-  this.users.push(this); // Push the current user into the array of users
+  users.push(this); // Push the current user into the array of users
 };
 
 User.prototype.getAll = function () {
